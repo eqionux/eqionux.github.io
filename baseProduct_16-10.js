@@ -7,10 +7,10 @@ var index;
 /*Material JS File Link*/
 var scriptList= 
 [
-"https://upload.botaksign.com/Print%20By%20Phone/TestFiles/baseMaterial_16-10.js",
+"https://cdn.jsdelivr.net/gh/eqionux/eqionux.github.io/baseMaterial_16-10.js",
 "https://upload.botaksign.com/Print%20By%20Phone/TestFiles/baseMaterial2_11-10.js",
 "https://upload.botaksign.com/Print%20By%20Phone/TestFiles/baseMaterial3_11-10.js",
-"https://upload.botaksign.com/Print%20By%20Phone/TestFiles/baseMaterial3_11-10.js",
+"https://cdn.jsdelivr.net/gh/eqionux/eqionux.github.io/baseMaterial_16-10.js",
 "https://upload.botaksign.com/Print%20By%20Phone/TestFiles/baseMaterial3_11-10.js",
 "https://upload.botaksign.com/Print%20By%20Phone/TestFiles/baseMaterial3_11-10.js",
 "https://upload.botaksign.com/Print%20By%20Phone/TestFiles/baseMaterial3_11-10.js",
