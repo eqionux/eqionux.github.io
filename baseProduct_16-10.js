@@ -9,6 +9,12 @@ var scriptList=
 [
 "https://upload.botaksign.com/Print%20By%20Phone/TestFiles/baseMaterial_16-10.js",
 "https://upload.botaksign.com/Print%20By%20Phone/TestFiles/baseMaterial2_11-10.js",
+"https://upload.botaksign.com/Print%20By%20Phone/TestFiles/baseMaterial3_11-10.js",
+"https://upload.botaksign.com/Print%20By%20Phone/TestFiles/baseMaterial3_11-10.js",
+"https://upload.botaksign.com/Print%20By%20Phone/TestFiles/baseMaterial3_11-10.js",
+"https://upload.botaksign.com/Print%20By%20Phone/TestFiles/baseMaterial3_11-10.js",
+"https://upload.botaksign.com/Print%20By%20Phone/TestFiles/baseMaterial3_11-10.js",
+"https://upload.botaksign.com/Print%20By%20Phone/TestFiles/baseMaterial3_11-10.js",
 "https://upload.botaksign.com/Print%20By%20Phone/TestFiles/baseMaterial3_11-10.js"
 ];
 
@@ -154,6 +160,8 @@ $(document).ready(function(){
 				
 				completeContainer += "<div class='matContent animated fadeIn slow " + materialCode + "'> <div class='matDescInfoContainer'>";
 				
+				completeContainer += "<p class='nameHeader'>" + materialName + "</p><p class='nameSubheader'>" + materialCode + "</p><hr class='divider'>";
+				
 				for(var x=0; x<materialTextInfo.length;x++) {
 					var newLine1 = "<ul class='matDescInfo matDesc" + x + "'>";
 					var newLine2 = "";
@@ -229,9 +237,10 @@ $(document).ready(function(){
 				loop:false,
 				margin:20,
 				nav:true,
-				navText:['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'], 
+				navText:['<i class="fas fa-chevron-left defaultArrowLeft"></i>','<i class="fas fa-chevron-right defaultArrowRight"></i>'], 
 				dots: false,
 				onTranslated : counter,
+				onInitialized : initArrow,
 				responsive:{
 					0:{
 						items:5
